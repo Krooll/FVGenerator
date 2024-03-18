@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+//Global styles
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1440px !important;
+}
+
+//D-flex variation
+
+ .d-flex {
+   display: flex !important;
+ }
+
+.f-justify-center {
+  justify-content: center!important;
+}
+
+.f-justify-between {
+  justify-content: space-between!important;
+}
+
+.f-align-center {
+  align-items: center!important;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
